@@ -13,73 +13,73 @@ export function SVGWrapper({ children }) {
   );
 }
 
-export function ChessBoard() {
+export function ChessBoard({ squareDarkColour, squareLightColour }) {
   return (
     <>
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 700)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 600)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 500)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 500)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 500)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 500)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 400)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 400)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 400)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 400)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 300)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 300)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 300)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 300)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 200)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 200)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 200)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 200)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 100)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 100)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 100)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 100)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 0)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 0)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 0)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 0)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 600)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 600)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 600)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 700)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 700)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 700)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 600)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 500)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 500)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 500)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 400)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 400)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 400)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 400)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 500)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 300)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 300)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 300)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 300)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 200)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 200)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 200)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 200)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 100)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 100)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 100)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 100)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 0)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 0)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 0)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 600)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 600)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 600)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 700)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 700)" fill="#b58863" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 700)" fill="#f0d9b5" strokeWidth="0" />
-      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 700)" fill="#f0d9b5" strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 700)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 600)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 500)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 500)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 500)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 500)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 400)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 400)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 400)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 400)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 300)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 300)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 300)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 300)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 200)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 200)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 200)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 200)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 100)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 100)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 100)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 100)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 0)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 0)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 0)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 0)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 600)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 600)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 600)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 700)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 700)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 700)" fill={squareDarkColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 700)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 600)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 500)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 500)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 500)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 400)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 400)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 400)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 400)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 500)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 300)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 300)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 300)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 300)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(0 200)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 200)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 200)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 200)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(100 100)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 100)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 100)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 100)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 0)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 0)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 0)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(200 600)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(400 600)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(600 600)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(300 700)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(500 700)" fill={squareLightColour} strokeWidth="0" />
+      <rect width="100" height="100" rx="0" ry="0" transform="translate(700 700)" fill={squareLightColour} strokeWidth="0" />
     </>
   );
 }
@@ -91,7 +91,6 @@ function isString(s) {
 export function convertPositionToObject(position) {
   if (position === 'start') return fenToObj('rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR');
   if (validFen(position)) return fenToObj(position);
-  if (validPositionObject(position)) return position;
   return {};
 }
 
