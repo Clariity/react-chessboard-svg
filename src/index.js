@@ -8,7 +8,7 @@ export function ChessboardSVG({ fen = 'start', squareDarkColour = '#b58863', squ
     <SVGWrapper>
       <ChessBoard squareDarkColour={squareDarkColour} squareLightColour={squareLightColour} />
       {Object.entries(fenObj).map(([square, piece]) =>
-        PIECES[piece](`${COLUMN_X_VALUES[square[0]]} ${ROW_Y_VALUES[square[1]]}`)
+        PIECES[piece](`${COLUMN_X_VALUES[square[0]]} ${ROW_Y_VALUES[square[1]]}`, square)
       )}
     </SVGWrapper>
   );

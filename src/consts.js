@@ -1,8 +1,9 @@
 export const COLUMNS = 'abcdefgh'.split('');
 
 export const PIECES = {
-  wP: (position) => (
+  wP: (position, key) => (
     <path
+      key={key}
       transform={`translate(${position}) scale(2.222 2.222)`}
       d="m 22.5,9 c -2.21,0 -4,1.79 -4,4 0,0.89 0.29,1.71 0.78,2.38 C 17.33,16.5 16,18.59 16,21 c 0,2.03 0.94,3.84 2.41,5.03 C 15.41,27.09 11,31.58 11,39.5 H 34 C 34,31.58 29.59,27.09 26.59,26.03 28.06,24.84 29,23.03 29,21 29,18.59 27.67,16.5 25.72,15.38 26.21,14.71 26.5,13.89 26.5,13 c 0,-2.21 -1.79,-4 -4,-4 z"
       style={{
@@ -20,8 +21,9 @@ export const PIECES = {
       }}
     />
   ),
-  wR: (position) => (
+  wR: (position, key) => (
     <g
+      key={key}
       transform={`translate(${position}) scale(2.222 2.222)`}
       style={{
         opacity: '1',
@@ -49,8 +51,9 @@ export const PIECES = {
       <path d="M 11,14 L 34,14" style={{ fill: 'none', stroke: '#000000', strokeLinejoin: 'miter' }} />
     </g>
   ),
-  wN: (position) => (
+  wN: (position, key) => (
     <g
+      key={key}
       transform={`translate(${position}) scale(2.222 2.222)`}
       style={{
         opacity: '1',
@@ -85,8 +88,9 @@ export const PIECES = {
       />
     </g>
   ),
-  wB: (position) => (
+  wB: (position, key) => (
     <g
+      key={key}
       transform={`translate(${position}) scale(2.222 2.222)`}
       style={{
         opacity: '1',
@@ -113,8 +117,9 @@ export const PIECES = {
       />
     </g>
   ),
-  wQ: (position) => (
+  wQ: (position, key) => (
     <g
+      key={key}
       transform={`translate(${position}) scale(2.222 2.222)`}
       style={{ fill: '#ffffff', stroke: '#000000', strokeWidth: '1.5', strokeLinejoin: 'round' }}
     >
@@ -129,8 +134,9 @@ export const PIECES = {
       <circle cx="39" cy="12" r="2" />
     </g>
   ),
-  wK: (position) => (
+  wK: (position, key) => (
     <g
+      key={key}
       transform={`translate(${position}) scale(2.222 2.222)`}
       style={{
         fill: 'none',
@@ -160,8 +166,9 @@ export const PIECES = {
       <path d="M 12.5,37 C 18,34 27,34 32.5,37" style={{ fill: 'none', stroke: '#000000' }} />
     </g>
   ),
-  bP: (position) => (
+  bP: (position, key) => (
     <path
+      key={key}
       transform={`translate(${position}) scale(2.222 2.222)`}
       d="m 22.5,9 c -2.21,0 -4,1.79 -4,4 0,0.89 0.29,1.71 0.78,2.38 C 17.33,16.5 16,18.59 16,21 c 0,2.03 0.94,3.84 2.41,5.03 C 15.41,27.09 11,31.58 11,39.5 H 34 C 34,31.58 29.59,27.09 26.59,26.03 28.06,24.84 29,23.03 29,21 29,18.59 27.67,16.5 25.72,15.38 26.21,14.71 26.5,13.89 26.5,13 c 0,-2.21 -1.79,-4 -4,-4 z"
       style={{
@@ -179,8 +186,9 @@ export const PIECES = {
       }}
     />
   ),
-  bR: (position) => (
+  bR: (position, key) => (
     <g
+      key={key}
       transform={`translate(${position}) scale(2.222 2.222)`}
       style={{
         opacity: '1',
@@ -230,8 +238,9 @@ export const PIECES = {
       />
     </g>
   ),
-  bN: (position) => (
+  bN: (position, key) => (
     <g
+      key={key}
       transform={`translate(${position}) scale(2.222 2.222)`}
       style={{
         opacity: '1',
@@ -270,8 +279,9 @@ export const PIECES = {
       />
     </g>
   ),
-  bB: (position) => (
+  bB: (position, key) => (
     <g
+      key={key}
       transform={`translate(${position}) scale(2.222 2.222)`}
       style={{
         opacity: '1',
@@ -298,8 +308,9 @@ export const PIECES = {
       />
     </g>
   ),
-  bQ: (position) => (
+  bQ: (position, key) => (
     <g
+      key={key}
       transform={`translate(${position}) scale(2.222 2.222)`}
       style={{
         fill: '#000000',
@@ -330,8 +341,9 @@ export const PIECES = {
       </g>
     </g>
   ),
-  bK: (position) => (
+  bK: (position, key) => (
     <g
+      key={key}
       transform={`translate(${position}) scale(2.222 2.222)`}
       style={{
         fill: 'none',
