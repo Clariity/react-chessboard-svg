@@ -13,5 +13,10 @@ interface ChessBoardSVGProps {
    * String defining fill colour for chessboard light tiles e.g. '#f0d9b5'
    */
   squareLightColour?: string;
+  /**
+   * Board orientation. 'white' shows the board from white's perspective, 'black' shows the board from black's perspective.
+   * @default 'white'
+   */
+  orientation?: 'white' | 'black';
 }
 export function ChessboardSVG(props: ChessBoardSVGProps): ReactElement;
